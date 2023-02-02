@@ -1,0 +1,71 @@
+h1{
+    text-align: center;
+    color: rgb(218, 194, 60);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+main{
+    color: rgb(218, 194, 60);
+    background-color: black;
+}
+body{
+    background-color: black;
+}
+.tudo{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    color: rgb(218, 194, 60);
+}
+.cep{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.cep input{
+    width: 210px;
+    height: 30px;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: black;
+    text-align: center;
+    
+}
+.tudo input{
+    width: 300px;
+    height: 20px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    border: 1px solid white;
+    border-radius: 5px;
+    text-align: center;
+}
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+
+}
+.text-indereco{
+    display: flex;
+    flex-direction: column;
+}
+@media screen {
+    
+}@media screen and (max-width: 942px) {
+    .tudo, main{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .tudo input{
+        width: 230px;
+    }
+}
